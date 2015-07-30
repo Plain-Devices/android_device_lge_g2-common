@@ -146,3 +146,12 @@ TARGET_SPECIFIC_HEADER_PATH := device/lge/g2-common/include
 
 #Fix reboot when the screen is locked
 BOARD_NO_WIFI_HAL := true
+
+#Settings->About->Hardware Info
+PRODUCT_CHIPSET := Qualcomm Snapdragon 800
+PRODUCT_CPU := Quad-core 2.26 GHz Krait 400
+PRODUCT_GPU := Adreno 330
+PRODUCT_REAR_CAM := 13 MP
+PRODUCT_FRONT_CAM := 2.1 MP
+PRODUCT_SCREEN_SIZE := 5.2 inch ~423 ppi IPS LCD
+PRODUCT_SCREEN_RES := 1080 x 1920 pixels
